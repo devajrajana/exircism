@@ -1,0 +1,8 @@
+def square(number):
+    if number in range(1,65):
+        return 2**(number-1)
+    else:
+        raise ValueError("square must be between 1 and 64")
+
+def total():
+    return 18446744073709551615
